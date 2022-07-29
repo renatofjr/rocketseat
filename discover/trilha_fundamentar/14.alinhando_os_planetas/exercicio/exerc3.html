@@ -1,0 +1,33 @@
+<!-- 
+    9 fotos em 3 colunas
+
+    Crie uma galeria de fotos onde teremos 3 colunas e 9 fotos;
+    Deixe um espaço de .8rem entre os elementos da galeria.
+
+-->
+
+<!-- HTML -->
+<div class="gallery">
+    <img src="https://source.unsplash.com/random?id=1211" alt="">
+    <img src="https://source.unsplash.com/random?id=1224" alt="">
+    <img src="https://source.unsplash.com/random?id=1133" alt="">
+    <img src="https://source.unsplash.com/random?id=1241" alt="">
+    <img src="https://source.unsplash.com/random?id=1254" alt="">
+    <img src="https://source.unsplash.com/random?id=1563" alt="">
+    <img src="https://source.unsplash.com/random?id=5791" alt="">
+    <img src="https://source.unsplash.com/random?id=3133" alt="">
+    <img src="https://source.unsplash.com/random?id=2494" alt="">
+  </div>
+
+<!-- CSS -->
+img{
+    width: 30%;
+    height: auto;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .8rem;
+    justify-content: center;
+  }

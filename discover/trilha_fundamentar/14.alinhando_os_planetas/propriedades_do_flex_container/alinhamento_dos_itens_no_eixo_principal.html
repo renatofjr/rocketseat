@@ -1,0 +1,37 @@
+<!-- 
+    justify-content
+
+    - Alinhamento dos elementos dentro do container
+    - Distribuição dos elementos
+
+    valores
+
+    - flex-start
+    - flex-end
+    - center
+    - space-around
+    - space-between
+    - space-evenly
+
+ -->
+
+ <!-- HTML -->
+ <div class="box">
+    <div>A</div>
+    <div>B</div>
+    <div>C</div>
+    <div>D</div>
+  </div>
+
+ <!-- CSS -->
+ .box {
+    display: flex;  
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px dashed red;
+    height: 150px;
+  }
+  
+  .box div {
+    border: 1px solid;
+  }

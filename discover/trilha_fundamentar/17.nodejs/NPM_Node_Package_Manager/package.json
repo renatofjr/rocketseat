@@ -4,9 +4,12 @@
   "description": "",
   "main": "console.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "learning",
+    "nodejs"
+  ],
+  "author": "Renato F Jr",
   "license": "ISC"
 }
